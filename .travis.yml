@@ -6,6 +6,6 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - coverage test_flask.py
+  - coverage run test_flask.py
 after_success:
   - codecov
