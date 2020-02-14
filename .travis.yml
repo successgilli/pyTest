@@ -8,4 +8,4 @@ install:
 script:
   - coverage run test_flask.py
 after_success:
-  - codecov
+  - codecov --token=c4ca27d2-7706-47b6-87c3-4417b2842481
